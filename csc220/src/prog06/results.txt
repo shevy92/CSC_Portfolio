@@ -1,0 +1,79 @@
+Expected number of frequent flyer arrivals per hour: 20
+Expected number of regular passenger arrivals per hour: 45
+The maximum number of frequent flyers
+served between regualar passengers: 8
+Maximum service time in minutes: 5
+The total simulation time in minutes: 45
+Display minute-by-minute trace of simulation (Y or N): y
+Set simulation granularity to seconds (Y or N): n
+Time is 0: Regular Passenger arrival, new queue size is 1
+Time is 0: Serving Regular Passenger with time stamp 0
+Time is 1:  Server is idle
+Time is 2: Frequent Flyer arrival, new queue size is 1
+Time is 2: Regular Passenger arrival, new queue size is 1
+Time is 2: Serving Frequent Flyer with time stamp 2
+Time is 3: Serving Regular Passenger with time stamp 2
+Time is 4: Frequent Flyer arrival, new queue size is 1
+Time is 4: Regular Passenger arrival, new queue size is 1
+Time is 5: Regular Passenger arrival, new queue size is 2
+Time is 6: Regular Passenger arrival, new queue size is 3
+Time is 6: Serving Frequent Flyer with time stamp 4
+Time is 8: Frequent Flyer arrival, new queue size is 1
+Time is 8: Regular Passenger arrival, new queue size is 4
+Time is 8: Serving Frequent Flyer with time stamp 8
+Time is 9: Frequent Flyer arrival, new queue size is 1
+Time is 9: Regular Passenger arrival, new queue size is 5
+Time is 10: Frequent Flyer arrival, new queue size is 2
+Time is 11: Regular Passenger arrival, new queue size is 6
+Time is 11: Serving Frequent Flyer with time stamp 9
+Time is 12: Frequent Flyer arrival, new queue size is 2
+Time is 13: Frequent Flyer arrival, new queue size is 3
+Time is 13: Regular Passenger arrival, new queue size is 7
+Time is 14: Regular Passenger arrival, new queue size is 8
+Time is 15: Frequent Flyer arrival, new queue size is 4
+Time is 15: Regular Passenger arrival, new queue size is 9
+Time is 16: Regular Passenger arrival, new queue size is 10
+Time is 16: Serving Frequent Flyer with time stamp 10
+Time is 17: Regular Passenger arrival, new queue size is 11
+Time is 19: Regular Passenger arrival, new queue size is 12
+Time is 20: Serving Frequent Flyer with time stamp 12
+Time is 21: Regular Passenger arrival, new queue size is 13
+Time is 22: Regular Passenger arrival, new queue size is 14
+Time is 23: Frequent Flyer arrival, new queue size is 3
+Time is 23: Regular Passenger arrival, new queue size is 15
+Time is 24: Regular Passenger arrival, new queue size is 16
+Time is 25: Frequent Flyer arrival, new queue size is 4
+Time is 25: Regular Passenger arrival, new queue size is 17
+Time is 25: Serving Frequent Flyer with time stamp 13
+Time is 26: Regular Passenger arrival, new queue size is 18
+Time is 27: Serving Frequent Flyer with time stamp 15
+Time is 28: Frequent Flyer arrival, new queue size is 3
+Time is 29: Regular Passenger arrival, new queue size is 19
+Time is 29: Serving Frequent Flyer with time stamp 23
+Time is 30: Regular Passenger arrival, new queue size is 20
+Time is 30: Serving Frequent Flyer with time stamp 25
+Time is 31: Regular Passenger arrival, new queue size is 21
+Time is 32: Regular Passenger arrival, new queue size is 22
+Time is 33: Frequent Flyer arrival, new queue size is 2
+Time is 33: Regular Passenger arrival, new queue size is 23
+Time is 35: Frequent Flyer arrival, new queue size is 3
+Time is 35: Regular Passenger arrival, new queue size is 24
+Time is 35: Serving Regular Passenger with time stamp 4
+Time is 36: Regular Passenger arrival, new queue size is 24
+Time is 37: Frequent Flyer arrival, new queue size is 4
+Time is 37: Regular Passenger arrival, new queue size is 25
+Time is 37: Serving Frequent Flyer with time stamp 28
+Time is 39: Regular Passenger arrival, new queue size is 26
+Time is 40: Frequent Flyer arrival, new queue size is 4
+Time is 40: Serving Frequent Flyer with time stamp 33
+Time is 41: Frequent Flyer arrival, new queue size is 4
+Time is 42: Regular Passenger arrival, new queue size is 27
+Time is 43: Frequent Flyer arrival, new queue size is 5
+Time is 44: Frequent Flyer arrival, new queue size is 6
+
+The number of regular passengers served was 3
+ with an average waiting time of 10.666666666666666
+The number of frequent flyers served was 12
+ with an average waiting time of 5.75
+Passengers in frequent flyer queue: 6
+Passengers in regular queue: 27

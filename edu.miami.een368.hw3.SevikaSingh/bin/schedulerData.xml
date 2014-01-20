@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SchedulerData>
+<patientList>
+	<patient>
+		<id>1</id>
+		<name>
+			<firstName>John</firstName>
+			<lastName>Lennon</lastName>
+		</name>
+		<dob>05/01/1951</dob>
+		<ssn>123-45-6789</ssn>
+	</patient>
+	
+	<patient>
+		<id>2</id>
+		<name>
+			<firstName>Paul</firstName>
+			<lastName>McCartney</lastName>
+		</name>
+		<dob>06/23/1964</dob>
+		<ssn>333-22-1123</ssn>
+	</patient>
+	
+	<patient>
+		<id>3</id>
+		<name>
+			<firstName>George</firstName>
+			<lastName>Harrison</lastName>
+		</name>
+		<dob>09/05/1955</dob>
+		<ssn>567-39-9282</ssn>
+	</patient>
+	
+	<patient>
+		<id>4</id>
+		<name>
+			<firstName>Ringo</firstName>
+			<lastName>Starr</lastName>
+		</name>
+		<dob>02/28/2001</dob>
+		<ssn>888-88-8888</ssn>
+	</patient>
+	
+</patientList>
+
+<doctorList>
+	<doctor>
+		<id>1</id>
+		<ssn>445-25-3382</ssn>
+		<name>
+			<firstName>John</firstName>
+			<lastName>Smith</lastName>
+		</name>
+		<dob>06/03/1941</dob>
+		<medicalSpecialty>GENERAL_MEDICINE</medicalSpecialty>
+	</doctor>
+	
+	<doctor>
+		<id>2</id>
+		<ssn>582-10-9983</ssn>
+		<name>
+			<firstName>Jane</firstName>
+			<lastName>Doe</lastName>
+		</name>
+		<dob>10/10/1950</dob>
+		<medicalSpecialty>PEDIATRICS</medicalSpecialty>
+	</doctor>
+	
+	<doctor>
+		<id>3</id>
+		<ssn>180-38-0038</ssn>
+		<name>
+			<firstName>Mary</firstName>
+			<lastName>Jones</lastName>
+		</name>
+		<dob>12/25/1965</dob>
+		<medicalSpecialty>GENERAL_MEDICINE</medicalSpecialty>
+	</doctor>
+	
+	<doctor>
+		<id>4</id>
+		<ssn>343-34-9875</ssn>
+		<name>
+			<firstName>Beth</firstName>
+			<lastName>Garcia</lastName>
+		</name>
+		<dob>07/19/1964</dob>
+		<medicalSpecialty>ONCOLOGY</medicalSpecialty>
+	</doctor>	
+</doctorList>
+
+
+<visitList>
+
+
+	<visit>
+		<patient>1</patient>
+		<doctor>1</doctor>
+		<visitDate>05/11/2013</visitDate>
+	</visit>
+	
+	<visit>
+		<patient>1</patient>
+		<doctor>1</doctor>
+		<visitDate>05/12/2013</visitDate>
+	</visit>
+	
+	<visit>
+		<patient>4</patient>
+		<doctor>2</doctor>
+		<visitDate>05/14/2013</visitDate>
+	</visit>
+	
+	<visit>
+		<patient>2</patient>
+		<doctor>3</doctor>
+		<visitDate>05/09/2013</visitDate>
+	</visit>
+	
+	<visit>
+		<patient>3</patient>
+		<doctor>4</doctor>
+		<visitDate>05/09/2013</visitDate>
+	</visit>
+	
+	<visit>
+		<patient>4</patient>
+		<doctor>1</doctor>
+		<visitDate>05/13/2013</visitDate>
+	</visit>
+	
+	<visit>
+		<patient>3</patient>
+		<doctor>2</doctor>
+		<visitDate>05/13/2013</visitDate>
+	</visit>
+
+</visitList>
+</SchedulerData>

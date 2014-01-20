@@ -1,0 +1,34 @@
+Login: stsi220 			Name: Sevika Taashma Singh
+
+--------------------------------------------------------------------
+score prog01 100
+
+--------------------------------------------------------------------
+score prog02 82
+
+processCommands:
+-3
+If name==null it still asks for a number.
+-3
+Line 46 adds the old number directly after reading it? If the name
+does not exist it adds it with number null.
+-2
+Instead of doing a lookup before adding an entry, you can just call
+addOrChangeEntry and use its return value to decide which message
+you need to show.
+-3
+lookup does not check name for null.
+-3
+remove does not check name for null.
+-2
+In remove line 75 you do a lookup which stored the result in number.
+The next line does a new lookup instead of using number.
+-2
+Before you remove an item, you don't need to check whether it exists.
+Just call pd.removeEntry and store the returned number object. If this
+is null it has not removed anything, otherwise this is the deleted
+number. Your code searches for the name three times.
+
+SortedPD:
+Please try to use a correct indentation.
+

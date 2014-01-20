@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+xmlns="http://www.miami.edu/een368/xml/scheduling"
+xsi:schemaLocation="http://www.miami.edu/een368/xml/DataFile DataFile.xsd">
+
+<FinalProject.PatientImpl>
+  <ID>1</ID>
+  <name>Navin V Singh</name>
+  <DOB>12/03/1997</DOB>
+  <SSN>888888888</SSN>
+</FinalProject.PatientImpl>
+<FinalProject.PatientImpl>
+  <ID>2</ID>
+  <name>Sevika T Singh</name>
+  <DOB>03/18/1992</DOB>
+  <SSN>777777777</SSN>
+</FinalProject.PatientImpl>
+<FinalProject.PatientImpl>
+  <ID>3</ID>
+  <name>Bob C Dylan</name>
+  <DOB>12/23/1960</DOB>
+  <SSN>444444444</SSN>
+</FinalProject.PatientImpl>
+<FinalProject.PatientImpl>
+  <ID>4</ID>
+  <name>Andreas R Seekircher</name>
+  <DOB>01/18/1982</DOB>
+  <SSN>111111111</SSN>
+</FinalProject.PatientImpl>
+<FinalProject.DoctorImpl>
+  <ID>1</ID>
+  <name>Alan M Swartz</name>
+  <DOB>04/23/1945</DOB>
+  <SSN>90348975545</SSN>
+  <spec>ONCOLOGY</spec>
+</FinalProject.DoctorImpl>
+
+<FinalProject.PatientImpl>
+  <ID>5</ID>
+  <name>Kattie S Maldonado</name>
+  <DOB>02/09/1992</DOB>
+  <SSN>333333333</SSN>
+</FinalProject.PatientImpl>
+
+
+<FinalProject.DoctorImpl>
+  <ID>2</ID>
+  <name>Dave R Singh</name>
+  <DOB>06/08/1959</DOB>
+  <SSN>555555555</SSN>
+  <spec>PEDIATRICS</spec>
+</FinalProject.DoctorImpl>
+
+<FinalProject.DoctorImpl>
+  <ID>3</ID>
+  <name>Kamanie S Singh</name>
+  <DOB>08/29/1960</DOB>
+  <SSN>777777777</SSN>
+  <spec>ONCOLOGY</spec>
+</FinalProject.DoctorImpl>
+
+<FinalProject.VisitImpl>
+  <patient>Navin V Singh</patient>
+  <doctor>Kamanie S Singh</doctor>
+  <date>06/14/2013</date>
+  <time>2:00 pm</time>
+  <ID>1</ID>
+</FinalProject.VisitImpl>
+
+<FinalProject.VisitImpl>
+  <patient>Andreas R Seekircher</patient>
+  <doctor>Alan M Swartz</doctor>
+  <date>04/30/2012</date>
+  <time>1:45 pm</time>
+  <ID>2</ID>
+</FinalProject.VisitImpl>
+
+<FinalProject.VisitImpl>
+  <patient>Andreas R Seekircher</patient>
+  <doctor>Dave R Singh</doctor>
+  <date>06/12/2013</date>
+  <time>11:00 am</time>
+  <ID>3</ID>
+</FinalProject.VisitImpl>
+
+<FinalProject.VisitImpl>
+  <patient>Sevika T Singh</patient>
+  <doctor>Alan M Swartz</doctor>
+  <date>05/30/2013</date>
+  <time>10:30 am</time>
+  <ID>4</ID>
+</FinalProject.VisitImpl>
+
+<FinalProject.VisitImpl>
+  <patient>Kattie S Maldonado</patient>
+  <doctor>Alan M Swartz</doctor>
+  <date>01/12/2013</date>
+  <time>3:45 pm</time>
+  <ID>5</ID>
+</FinalProject.VisitImpl>
+
+<FinalProject.PatientImpl>
+  <ID>6</ID>
+  <name>Goberdhan G Goberdhan</name>
+  <DOB>12/07/1929</DOB>
+  <SSN>888888888</SSN>
+</FinalProject.PatientImpl>
+
+<FinalProject.DoctorImpl>
+  <ID>4</ID>
+  <name>Arvin H Chetram</name>
+  <DOB>06/13/1983</DOB>
+  <SSN>999999999</SSN>
+  <spec>GENERAL_MEDICINE</spec>
+</FinalProject.DoctorImpl>
+
+<FinalProject.VisitImpl>
+  <patient>Goberdhan G Goberdhan</patient>
+  <doctor>Arvin H Chetram</doctor>
+  <date>09/13/2013</date>
+  <time>4:30 pm</time>
+  <ID>6</ID>
+</FinalProject.VisitImpl>
+
+<FinalProject.VisitImpl>
+  <patient>Navin V Singh</patient>
+  <doctor>Alan M Swartz</doctor>
+  <date>04/30/2013</date>
+  <time>4:30 pm</time>
+  <ID>7</ID>
+</FinalProject.VisitImpl>
+</root>
